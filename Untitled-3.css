@@ -1,0 +1,46 @@
+button {
+    width: 193px;
+    height: 66px;
+    margin-top: 653px;
+    margin-left: 864px;
+    color: #ffffff;
+    border-radius: 32px;
+    background-color: rgba(255, 101, 110, 0.8);
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 24px;
+    border-color: rgba(255, 101, 110, 0.8);
+}
+
+.content {
+    position: relative
+}
+
+main>div {
+    position: relative;
+}
+
+.conteiner img {
+    position: absolute;
+}
+
+.menu {
+    display: flex;
+    flex-direction: inherit;
+    justify-content: start;
+    margin-top: 100px;
+    border: red;
+}
+.image{
+    margin-right: 50px;
+}
+.flowers{
+margin-right: 50px;
+border-radius: 140px;
+}
+
+a:hover {
+    background: red;
+}
