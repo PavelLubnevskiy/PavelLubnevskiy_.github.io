@@ -76,7 +76,7 @@ font-family: 'Formular';
     
 }
 .glass{
-    margin-left: 11px;
+    margin-left: 13px;
     margin-top: 13px;
     margin-bottom: 11px;
 }
@@ -92,6 +92,7 @@ font-family: 'Formular';
  
 }
 .product_block{
+ padding: 0 95px;
  display: flex;
  justify-content: space-around;
 }
@@ -140,12 +141,6 @@ color: #5E055B;
 
     
 }
-.product_item:first-child{
-  margin-left: 93px;
-}
-.product_item:last-child{
-    margin-right: 95px;
-}
 .text{
     text-align: center;
     font-family: 'Formular';
@@ -155,8 +150,6 @@ color: #5E055B;
     text-transform: uppercase;
 }
 .img{
-    width: 248px;
-    height: 248px;
     border-radius: 140px;
     border: 4px solid #FFFF;
 }
@@ -204,4 +197,10 @@ border-radius: 32px;
 .address{
   margin-left: 117px;
 }
-
+.phone_btn{
+    display: none;
+}
+.product_item img{
+    width: 100%;
+    height: 100%;
+}
