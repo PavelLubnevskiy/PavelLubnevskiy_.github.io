@@ -13,8 +13,12 @@
 
 <body>
     <div class="conteiner">
+        <div class="blur">
+
+        </div>
         <header>
             <div class="burger">
+                <button>
                 <span>
 
                 </span>
@@ -24,6 +28,75 @@
                 <span>
 
                 </span>
+                </button>
+            </div>
+            <div class="menu_burger">
+                <div class="burger_menu">
+                    <div class="span_burger">
+                        <button>
+                        <span>
+
+                        </span>
+                        <span>
+
+                        </span>
+                        <span>
+
+                        </span>
+                        </button>
+                    </div>
+                    <img class="menu_burger_logo" src="/logoBurger.svg" alt="Логотип">
+                </div>
+                <div class="burger_menu_cat">
+                    <p class="burger_menu_text">Каталог</p>
+                    <img class="burger_strela" src="/burger_logo.svg" alt="стрелка">
+                </div>
+                <div class="burger_menu_cat">
+                    <p class="burger_menu_text">Акции</p>
+                </div>
+                <div class="burger_menu_cat">
+                    <p class="burger_menu_text">Доставка</p>
+                </div>
+                <div class="burger_menu_cat">
+                    <p class="burger_menu_text">Оплата</p>
+                </div>
+                <div class="burger_menu_cat">
+                    <p class="burger_menu_text">Компания</p>
+                </div>
+                <div class="burger_menu_cat">
+                    <p class="burger_menu_text">Контакты</p>
+                </div>
+                <div class="burger_mess">
+                    <div class="burger_mess_add">
+                        <p class="burger_mess_addres">Наш адрес:</p>
+                    </div>
+                    <div class="burger_mess_text">
+                        <p class="burger_mess_street">Минск, ул. Минина, 13</p>
+                    </div>
+                    <div class="burger_mess_add">
+                        <p class="burger_mess_addres_">Обработка заказов:</p>
+                    </div>
+                    <div class="burger_mess_text">
+                        <p class="burger_mess_street">9:00-21:00 ежедневно</p>
+                    </div>
+                    <div class="burger_mess_add">
+                        <p class="burger_mess_addres">E-mail</p>
+                    </div> 
+                    <div class="burger_mess_text">
+                        <p class="burger_mess_street">best@gmail.com</p>
+                    </div>
+                    <div class="burger_mess_image">
+                        <a href="https://www.instagram.com/"> <img class="social" src="/instagram.svg" alt="Инстаграм"></a> 
+                        <a href="https://ru-ru.facebook.com/"> <img class="social" src="/facebook.svg" alt="Фейсбук"> </a>
+                        <a href="https://www.youtube.com/"> <img class="social" src="/yourube.svg" alt="Ютуб"> </a>
+                    </div>
+
+
+
+
+
+
+                </div>
             </div>
             <div class="menu">
                 <div class="menu_item">
@@ -44,7 +117,6 @@
                 <div class="menu_item">
                     <P>Контакты</P>
                 </div>
-
             </div>
             <div class="address">
                 <p class="our_address">
@@ -72,14 +144,47 @@
                 <a class="number" href="tel:+375296428080">+375(29)642-80-80</a>
                 <p class="back_call">Обратный звонок</p>
             </div>
+            <button class="search_btn">
             <div class="search">
-                <img class="glass" src="Vector (3).svg" width="18px" height="18px" alt="лупа">
+            <img class="glass" src="Vector (3).svg" width="18px" height="18px" alt="лупа">
             </div>
+            </button>
             <div class="cart">
                 <img class="purchases" src="svg-gobbler 1.svg" width="23px" height="17px" alt="корзина">
             </div>
         </header>
         <main>
+            <div class="search_main">
+                <img class="loop_search" src="/Vector (4).svg" alt="Лупа">
+                <p class="search_text">Поиск</p> 
+            </div>
+            <div class="block_contact" onclick="event.stopPropagation()">
+                <img class="vector" src="/strelka.svg" alt="стрелка">
+                <div class="contact_number">
+                    <img class="a1" src="/A1_01_08RED_3_L-768x768 2.svg" alt="логотип">
+                    <a class="a1_number" href="tel:+375296123456"><span class="phone">+375 (29)</span> <span
+                            class="phone_">612-34-56</span></a>
+                    <img class="a1" src="/A1_01_08RED_3_L-768x768 2.svg" alt="логотип">
+                    <a class="a1_number" href="tel:+375296123456"><span class="phone">+375 (29)</span> <span
+                            class="phone_">612-34-56</span></a>
+                    <img class="a1" src="/A1_01_08RED_3_L-768x768 2.svg" alt="логотип">
+                    <a class="a1_number" href="tel:+375296123456"><span class="phone">+375 (29)</span> <span
+                            class="phone_">612-34-56</span></a>
+
+                </div>
+                <div class="messengers">
+                    <a href="https://www.viber.com/ru/"> <img class="messengers_" src="/viber.svg" alt="Вайбер"> </a>
+                    <a href="https://web.telegram.org/a/"> <img class="messengers_" src="/telegram.svg"
+                            alt="Телеграмм"></a>
+                    <a href="https://www.whatsapp.com/?lang=ru"> <img class="messengers_" src="/watsapp.svg"
+                            alt="Вотсап"></a>
+                    <div class="call_btn">
+                        <button class="contact_btn">
+                            <p>Обратный звонок</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
             <div class="main_title">
                 <h1>Цветочное ателье</h1>
             </div>
@@ -166,7 +271,7 @@
 
         </main>
     </div>
-
+    <script src="/js/script.js"></script>
 </body>
 
 </html>

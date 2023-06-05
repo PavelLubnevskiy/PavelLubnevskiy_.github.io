@@ -1,112 +1,536 @@
+
+@media screen and (max-width: 1250px){
+
+
+
+.logo{
+    margin: 0;
+    padding: 0;
+}
+.search{
+    margin: 0;
+    width: 42px;
+    height: 42px;
+    margin-top: -24px;
+    margin-right: -46px;
+}
+header{
+    padding: 12px 25px 0 25px;
+}
+.cart{
+    margin: 0;
+}
+.back_call{
+    margin: 0;
+}
+.main_title h1{
+    margin-top: 250px;
+    margin-bottom: -20px;
+}
+.address{
+    margin: 0;
+}
+.glass{
+    margin: 0;
+    margin-top: 13px;
+}
+.phone_number{
+    margin-right: -30px;
+    margin-top: 10px;
+}
+.product_item{
+    margin-right: 22px;
+}
+.conteiner{
+    background-position: top;
+}
+.product_block{
+    margin-top: 18px;
+    padding: 0 85px;
+}
+.kartinka{
+    bottom: -85px;
+}
+.red_btn button{
+    margin-top: 370px;
+}
+.search_main{
+    margin-left: 320px;
+}
+.img{
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+}
+@media (max-width: 900px){
+
+
+    .product_block{
+        flex-wrap: wrap;
+    }
+    .product_item{
+        margin-right: 25px;
+    }
+    .kartinka{
+        bottom: -40px;
+    }
+    .address{
+        display: none;
+    }
+    .time_work{
+        display: none;
+    }
+    .phone_number{
+        display: none;
+    }
+    .cart{
+        margin-left: -170px;
+    }
+    .search_main{
+        margin-left: 100px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 @media (max-width: 760px){
 
 
-.menu{
-    display: none;
-}
-.address{
-    display: none;
-}
-.time_work{
-    display: none;
-}
-.phone_number{
-  display: none;
-}
-.search{
-    width: 22px;
-    height: 22px;
-    border-radius: 50px;
-    padding: 13px 12px 11px 13px;
-    margin: 0 13px;
-}
-.glass{
-  margin: 0;
-  width: 20px;
-  height: 20px;
-}
-.phone_btn{
-    display: block;
-    background-color: #fee0f9;
-    width: 22px;
-    height: 22px;
-    border-radius: 50px;
-    padding: 13px 12px 11px 13px;
-}
-.phone_btn_image{
-    margin:0;
-    width: 22px;
-    height: 22px;
-}
-.logo{
-    margin-right: 135px;
-    width:133px;
-    height: 33px;
-    margin-bottom: 0;
-    padding: 0;
-}
-header{
-padding: 15px 13px 0 13px;
-justify-content: initial;
-}
-.product_block{
-    flex-wrap: wrap;
-    padding: 0 40px;
-    margin: 0;
-}
-.product_item{
-    width: calc(100% / 3 - 30px);
-    padding: 0;
-    margin: 15px;
-}
-img{
-    width: 100%;
-}
-.cart{
-    width: 45px;
-    height: 45px;
-    margin:0;
-}
-.burger{
-    margin-right: auto;
-    margin-top: 12px;
-}
-.burger span{
-    margin: 0;
-    height: 2px;
-    width: 35px;
-}
-.burger span:nth-child(2){
-    margin: 6px 0 ;
-}
-.purchases{
-    width: 27px;
-    height: 27px;
-    margin: 0;
-    border-radius: 50px;
-    padding: 9px;
+    .menu{
+        display: none;
+    }
+    .address{
+        display: none;
+    }
+    .time_work{
+        display: none;
+    }
+    .phone_number{
+      display: none;
+    }
+    .search{
+        width: 22px;
+        height: 22px;
+        border-radius: 50px;
+        padding: 13px 12px 11px 13px;
+        margin: 0 13px;
+    }
+    .glass{
+      margin: 0;
+      width: 20px;
+      height: 20px;
+    }
+    .phone_btn{
+        display: block;
+        background-color: #fee0f9;
+        width: 22px;
+        height: 22px;
+        border-radius: 50px;
+        padding: 13px 12px 11px 13px;
+    }
+    .phone_btn_image{
+        margin:0;
+        width: 22px;
+        height: 22px;
+    }
+    .logo{
+        width:133px;
+        height: 33px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    header{
+    padding: 15px 13px 0 13px;
+    justify-content: initial;
+    }
+    .product_block{
+        flex-wrap: wrap;
+        padding: 0 40px;
+        margin: 0;
+        margin-top: 80px;
+    }
+    .product_item{
+        width: calc(100% / 3 - 30px);
+        padding: 0;
+        margin: 15px;
+    }
+    img{
+        width: 100%;
+    }
+    .cart{
+        width: 45px;
+        height: 45px;
+        margin:0;
+    }
+    .burger{
+        margin-right: auto;
+        margin-top: 12px;
+    }
+    .burger span{
+        margin: 0;
+        height: 2px;
+        width: 35px;
+    }
+    .burger span:nth-child(2){
+        margin: 6px 0 ;
+    }
+    .purchases{
+        width: 27px;
+        height: 27px;
+        margin: 0;
+        border-radius: 50px;
+        padding: 9px;
+        
+    }
+    .main_title h1{
+        margin-top: 256px;
+        margin-bottom: 185px;
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 16px;
+    }
+    .conteiner{
+        background-image: url(/flat-lay-beautiful-assortment-flowers923.jpg);
+    }
+    .red_btn button{
+        margin-bottom: 25px;
+        margin-top: 40px;
+    }
+    .logo img{
+        height: 100%;
+        margin-top: 7px;
+        margin-left: -100px;
+    }
+    .kartinka{
+        bottom: 135px;
+    }
+    .block_contact{
+        margin: 0 auto;
+        margin-top: 114px;
+        width: 398px;
+        height: 344px;
+        border-radius: 20px;
+        backdrop-filter: blur(15px);
+        flex-direction: row;
+        justify-content: center;
+        padding: 21px 0;
+        padding-bottom: 133px;
+        gap: 10px;
+        align-items: center;
+        flex-wrap: wrap;
+        background: rgba(255, 255, 255, 0.5);
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
     
+    }
+    .block_contact.active{
+        display: flex;
+    }
+    .a1_number{
+        text-decoration: none;
+    }
+    .phone{
+        font-family: 'Formular';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: #5D055B;
+    }
+    .phone_{
+        font-family: 'Formular';
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 29px;
+        color: #5D055B;
+    }
+    .a1{
+     width: 36px;
+     height: 33px;
+     margin-bottom: -9px;
+     margin-top: 33px;
+     margin-left: 50px;
+    }
+    .messengers_{
+        width: 53px;
+        height: 53px;
+        margin-right: 18px;
+        margin-left: 10px;
+    }
+    .messengers a{
+        text-decoration: none;
+    }
+    .contact_btn{
+        width: 223px;
+        height: 53px;
+        border-radius: 32px;
+        background: linear-gradient(180deg, rgba(255, 101, 110, 0.8) 0%, #FF4F59 100%);
+        border: none;
+        box-shadow: 0px 4px 13px rgba(66, 7, 60, 0.44);
+        margin-left: 10px;
+        margin-top: 63px;
+    }
+    .contact_btn p{
+        font-family: 'Formular';
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #FFFF;
+    }
+    .vector{
+        width: 25px;
+        height: 25px;
+    }
+    .contact_number{
+        margin-left: 10px;
+    }
+    .messengers{
+     margin-left: 10px;
+     margin-top: 5px;
+    }
+    .menu_burger.active{
+        display: block;
+    }
+    .menu_burger{
+        display: none;
+        margin: 0;
+        width: 268px;
+        height: 1349px;
+        background: #FFFF;
+        z-index: 11;
+        position: fixed;
+        left: 0;
+        top:0;
+        border: 0.5px solid #E5E7ED;
+    }
+    .burger_menu_cat{
+        width: 267px;
+        height: 60px;
+        border: 0.5px solid #E5E7ED;
+    }
+    .burger_menu_text{
+        font-family: 'Formular';
+        font-weight: 900;
+        font-size: 13px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #5E055B;
+        padding-top: 10px;
+        margin-left: 32px;
+    
+    }
+    .span_burger{
+        height: 39px;
+        margin-left: 25px;
+        margin-top: 21px;
+    }
+    .burger_strela{
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        margin-left: 227px;
+        margin-top: -30px;
+    }
+    .burger_mess_add{
+        width: 75px;
+        height: 16px;
+        font-family: 'Formular';
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 16px;
+        color: #BE81BC;
+    }
+    .burger_mess_text{
+        width: 173px;
+        height: 18px;
+        font-family: 'Formular';
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        color:  #5E055B;
+    }
+    .burger_mess_addres_{
+        width: 131px;
+        height: 16px;
+        font-family: 'Formular';
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 16px;
+        color: #BE81BC;
+        margin-top: 26px;
+    }
+    .burger_mess_street{
+        margin: 0;
+    }
+    .burger_mess_addres{
+        margin: 0;
+        margin-top: 26px;
+    }
+    .burger_mess_addres:first-child{
+        margin: 0;
+        margin-top: 45px;
+    }
+    .burger_mess{
+        margin-left: 32px;
+    }
+    .social{
+        width: 27px;
+        height: 27px;
+    }
+    .burger_mess_image a{
+        text-decoration: none;
+        margin-right: 31px;
+    }
+    .burger_mess_image{
+        margin-top: 49px;
+    }
+    .search_main{
+        margin-left: 15px;
+    }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+@media screen and (max-width: 411px) {
+
+
+    .main_title h1{
+        width: 351px;
+        height: 18px;
+        font-size: 13px;
+        line-height: 16px;
+        font-weight: 700;
+        margin-top: 150px;
+        margin-left: 32px;
+    }
+    .product_item img{
+        width: 111px;
+        height: 113px;
+    }
+    .product_item{
+        margin-left: 5px;
+    }
+    .product_block{
+        padding: 0 0;
+        margin-top: -55px;
+    }
+    .text{
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 0.93;
+    }
+    .kartinka{
+        margin-bottom: 265px;
+    }
+    .conteiner{
+        background-image: url(/411px.jpg);
+    }
+    .search{
+        width: 22px;
+        height: 22px;
+        margin: -1px 0;
+    }
+    .search_main.active{
+        width: 379px;
+        height: 42px;
+        margin: 0;
+        margin-left: 15px;
+        margin-top: 18px;
+    }
+    .block_contact.active{
+        width: 330px;
+        margin-top: 78px;
+    }
+    .contact_number{
+        margin: 0;
+        margin-left: -25px;
+    }
+    .menu_burger.active{
+        position: absolute;
+    }
+    .glass{
+        margin-top: 0;
+    }
+    header{
+        padding: 7px 11px 0 11px;
+    }
+    .logo img{
+        width: 133px;
+        height: 33px;
+        margin: 0;
+        margin-left: -35px;
+        margin-top: 7px;
+    }
+    .red_btn button{
+        margin-bottom: 90px;
+    }
+    .img{
+        width: 111px;
+        height: 112px;
+    }
+
+
+
+
 }
-.main_title h1{
-    margin-top: 256px;
-    margin-bottom: 215px;
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 16px;
-}
-.conteiner{
-    background-image: url(/flat-lay-beautiful-assortment-flowers923.jpg);
-}
-.red_btn button{
-    margin-bottom: 92px;
-}
-.logo img{
-    height: 100%;
-    margin-top: 7px;
-}
-.kartinka{
-    bottom: -185px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
 
 
@@ -144,4 +568,36 @@ img{
 
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
