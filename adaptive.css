@@ -19,6 +19,8 @@ header{
 }
 .cart{
     margin: 0;
+    margin-left: 45px;
+    margin-right: 10px;
 }
 .back_call{
     margin: 0;
@@ -35,6 +37,7 @@ header{
     margin-top: 13px;
 }
 .phone_number{
+    display: none;
     margin-right: -30px;
     margin-top: 10px;
 }
@@ -49,7 +52,7 @@ header{
     padding: 0 85px;
 }
 .kartinka{
-    bottom: -85px;
+    bottom: -485px;
 }
 .red_btn button{
     margin-top: 370px;
@@ -60,6 +63,17 @@ header{
 .img{
     width: 150px;
     height: 150px;
+}
+.phone_btn{
+    display: block;
+    border-radius: 50%;
+    background-color: #FFFF;
+    width: 42px;
+    height: 42px;
+}
+.phone_btn_image{
+    padding: 11px;
+    width: 20px;
 }
 
 
@@ -80,7 +94,7 @@ header{
         margin-right: 25px;
     }
     .kartinka{
-        bottom: -40px;
+        bottom: -440px;
     }
     .address{
         display: none;
@@ -97,8 +111,16 @@ header{
     .search_main{
         margin-left: 100px;
     }
-
-
+    .white_btn_head{
+        margin: 0;
+    }
+    .cart{
+        margin: 0;
+    }
+    .search{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 
 
 
@@ -152,6 +174,7 @@ header{
         margin:0;
         width: 22px;
         height: 22px;
+        padding:0;
     }
     .logo{
         width:133px;
@@ -222,7 +245,7 @@ header{
         margin-left: -100px;
     }
     .kartinka{
-        bottom: 135px;
+        bottom: -265px;
     }
     .block_contact{
         margin: 0 auto;

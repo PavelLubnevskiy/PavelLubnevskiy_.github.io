@@ -5,6 +5,7 @@ header{
     flex-wrap: nowrap;
     align-items: inherit;
     padding: 24px 60px 0 60px;
+    background-position: 50% 0;
 }
 body{
     margin: 0;
@@ -99,6 +100,8 @@ font-family: 'Formular';
     background-color: #FFFF;
     width: 42px;
     height: 42px;
+    margin-left: 45px;
+    margin-right: 10px;
 }
 .purchases{
  margin: 13px 10px 13px 10px;
@@ -284,4 +287,11 @@ line-height: 23px;
 
 color: #BE81BC;
     
+}
+.white_btn_head{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.phone_number{
+margin-right: 20px;
 }
