@@ -1,13 +1,3 @@
-@media (max-width: 1400px){
-.phone_number{
-    display: none;
-}
-}
-
-
-
-
-
 @media screen and (max-width: 1250px) {
 
     .product_block {
@@ -18,104 +8,6 @@
         width: calc(100% / 3 - 60px);
         padding: 0;
         margin: 15px;
-    }
-    .block_contact {
-        margin: 0 auto;
-        margin-top: 114px;
-        width: 398px;
-        height: 344px;
-        border-radius: 20px;
-        backdrop-filter: blur(15px);
-        flex-direction: row;
-        justify-content: center;
-        padding: 21px 0;
-        padding-bottom: 133px;
-        gap: 10px;
-        align-items: center;
-        flex-wrap: wrap;
-        background: rgba(255, 255, 255, 0.5);
-        display: none;
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 10;
-    }
-
-    .block_contact.active {
-        display: flex;
-    }
-    .a1_number {
-        text-decoration: none;
-    }
-
-    .phone {
-        font-family: 'Formular';
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 29px;
-        color: #5D055B;
-    }
-
-    .phone_ {
-        font-family: 'Formular';
-        font-weight: 900;
-        font-size: 24px;
-        line-height: 29px;
-        color: #5D055B;
-    }
-
-    .a1 {
-        width: 36px;
-        height: 33px;
-        margin-bottom: -9px;
-        margin-top: 33px;
-        margin-left: 50px;
-    }
-
-    .messengers_ {
-        width: 53px;
-        height: 53px;
-        margin-right: 18px;
-        margin-left: 10px;
-    }
-
-    .messengers a {
-        text-decoration: none;
-    }
-
-    .contact_btn {
-        width: 223px;
-        height: 53px;
-        border-radius: 32px;
-        background: linear-gradient(180deg, rgba(255, 101, 110, 0.8) 0%, #FF4F59 100%);
-        border: none;
-        box-shadow: 0px 4px 13px rgba(66, 7, 60, 0.44);
-        margin-left: 10px;
-        margin-top: 63px;
-    }
-
-    .contact_btn p {
-        font-family: 'Formular';
-        font-weight: 900;
-        font-size: 14px;
-        line-height: 24px;
-        text-transform: uppercase;
-        color: #FFFF;
-    }
-
-    .vector {
-        width: 25px;
-        height: 25px;
-    }
-
-    .contact_number {
-        margin-left: 10px;
-    }
-
-    .messengers {
-        margin-left: 10px;
-        margin-top: 5px;
     }
 
     .logo {
@@ -605,12 +497,9 @@
         margin: 0;
         width: calc(100% / 3 - 10px);
     }
-    .logo img{
-        margin-left: -50px;
-    }
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 411px) {
 
     .product_item {
         width: auto;
@@ -693,70 +582,6 @@
         width: 111px;
         height: 112px;
     }
-
-
-
-
-}
-@media screen and (max-width: 321px){
-.product_block{
-    margin-top: 150px;
-}
-.logo img{
-    width: 100px;
-    height: 30px;
-    margin-left: 0;
-}
-.phone_btn{
-    width: 15px;
-    height: 15px;
-}
-.cart{
-    width: 40px;
-    height: 40px;
-
-}
-.purchases{
-    width: 20px;
-    height: 20px;
-
-}
-.search{
-    width: 15px;
-    height: 15px;
-}
-.glass{
-    width: 17px;
-    height: 17px;
-}
-.phone_btn_image{
-    width: 16px;
-    height: 16px;
-}
-.main_title h1{
-    margin-top: 256px;
-    margin-bottom: 90px;
-}
-.search_main.active{
-    width: 290px
-}
-.block_contact.active{
-    width: 275px;
-}
-.contact_number{
-    margin-left: -55px;
-}
-.phone_{
-    font-size: 21px;
-}
-.phone{
-    font-size: 21px;
-}
-.a1{
-    width: 30px;
-    height: 30px;
-    margin-left: 68px;
-}
 
 
 
