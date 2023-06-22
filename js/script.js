@@ -13,7 +13,7 @@ function blur() {
 }
 document.querySelector(".burger").addEventListener("click",()=>{
  document.querySelector(".menu_burger").classList.toggle("active");
- blur();
+ document.querySelector('.menu').classList.toggle("active");
 })
 document.querySelector(".blur").addEventListener("click",()=>{
     if(document.querySelector("menu_burger.active")){
@@ -34,3 +34,5 @@ document.querySelector(".span_burger").addEventListener("click",()=>{
 document.querySelector(".search_btn").addEventListener("click",()=>{
     document.querySelector(".search_main").classList.toggle("active");
 })
+
+
