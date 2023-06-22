@@ -780,4 +780,10 @@
     .product_block {
         margin-top: 0;
     }
+    .white_btn_head{
+        display: none;
+    }
+    .logo img{
+        margin-left: -50px;
+    }
 }
